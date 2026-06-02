@@ -1,4 +1,4 @@
-// Kelompok 8 : 123250008, 123250013
+// Kelompok 6 : 123250007, 123250013
 
 #include <iostream>
 #include <string>   
@@ -55,7 +55,7 @@ void simpanKeFile() {
 void bacaDariFile() {
     ifstream fileMasuk("data_mobil.txt"); 
     if (!fileMasuk) {
-        cout << "File tidak ditemukan ! Silakan input data terlebih dahulu.\n";
+        cout << "File tidak ditemukan ! Silahkan input data terlebih dahulu.\n";
         return;
     }
     
@@ -73,7 +73,7 @@ void bacaDariFile() {
     }
     
     fileMasuk.close();
-    cout << "Data berhasil dibaca dari file data_mobil.txt !\n";
+    cout << "Data berhasil dibaca dari file data_mobil.txt!\n";
 }
 
 void inputData() {
@@ -84,8 +84,8 @@ void inputData() {
     cin  >> n;
 
     while (n > 10 || n < 1) {
-        cout << "Maaf, kapasitas data hanya 10 ! \n"
-             << "Masukan Jumlah data ulang : ";
+        cout << "Maaf, kapasitas data hanya 10! \n"
+             << "Masukkan Jumlah data ulang : ";
         cin  >> n;
     }
     cin.ignore(1000, '\n'); 
@@ -127,7 +127,7 @@ void inputData() {
 
 void lihatData() {
     if (n == 0) {
-        cout << "\n[!] Data tidak ditemukan ! Silakan input data kembali.\n";
+        cout << "\n[!] Data tidak ditemukan! Silakan input data kembali.\n";
         return;
     }
 
