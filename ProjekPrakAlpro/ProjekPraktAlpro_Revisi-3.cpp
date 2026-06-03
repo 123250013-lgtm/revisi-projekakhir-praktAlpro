@@ -574,7 +574,7 @@ int main()
             break;
 
         case 3:
-            cout << "MENU SEARCHING : \n "
+            cout << "\nMENU SEARCHING : \n "
                  << "================================= \n "
                  << " 1. SEQUENSIAL SEARCH \n "
                  << " 2. BINARY SEARCH \n "
