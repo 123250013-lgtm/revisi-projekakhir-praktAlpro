@@ -1,4 +1,4 @@
-// Kelompok 8 : 123250008, 123250013
+// Kelompok 7 : 123250007, 123250013
 
 #include <iostream>
 #include <string>
@@ -500,7 +500,7 @@ void kelolaDataPointer()
             cout << "Jumlah kenaikan harga (Rp) : ";
             cin >> jumlahNaik;
 
-            while (cin.fail())
+            while (cin.fail()) //digunkn untuk menangani error input jika user memasukkan selain angka
             {
                 cout << "Input harus berupa angka!\n";
                 cout << "Jumlah kenaikan harga : ";
