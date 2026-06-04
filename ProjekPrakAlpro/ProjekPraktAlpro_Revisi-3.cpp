@@ -393,7 +393,7 @@ void cariDataBinary()
         return;
     }
 
-    cout << "BINARY SEARCH \n"
+    cout << "\nBINARY SEARCH \n"
          << "================================= \n";
     cout << "No Mobil yang anda cari : ";
     getline(cin, cari);
